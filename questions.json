@@ -1,0 +1,162 @@
+[
+    {
+        "id": "q1",
+        "question": "How would you handle a situation where a villager is unsatisfied with your service?",
+        "options": [
+            {"text": "Avoid the villager", "values": {"Diplomacy": 0, "ConflictResolution": 0, "Empathy": 0}},
+            {"text": "Offer a compensation without discussion", "values": {"Diplomacy": 5, "ConflictResolution": 5, "Judgement": 5}},
+            {"text": "Engage in a dialogue to understand their concerns and find a resolution", "values": {"Diplomacy": 20, "ConflictResolution": 20, "Empathy": 15}},
+            {"text": "Delegate the issue to a companion", "values": {"Leadership": 10, "Delegation": 15, "Teamwork": 10}}
+        ]
+    },
+    {
+        "id": "q2",
+        "question": "When faced with a complex riddle, what is your usual approach?",
+        "options": [
+            {"text": "Guess a solution", "values": {"ProblemSolving": 5, "Logic": 5, "Intuition": 5}},
+            {"text": "Ask a companion", "values": {"Teamwork": 15, "Communication": 10, "Networking": 10}},
+            {"text": "Break the riddle down into smaller parts and analyze each one", "values": {"ProblemSolving": 20, "Logic": 20, "Analysis": 15}},
+            {"text": "Ignore the riddle", "values": {"Focus": 0, "Endurance": 0, "Patience": 0}}
+        ]
+    },
+    {
+        "id": "q3",
+        "question": "You are stranded in an unknown land. What is the first thing you do?",
+        "options": [
+            {"text": "Look for other inhabitants", "values": {"Survival": 10, "Teamwork": 10, "Networking": 10}},
+            {"text": "Search for food and water", "values": {"Survival": 20, "Foraging": 20, "Resourcefulness": 15}},
+            {"text": "Try to build a shelter", "values": {"Survival": 15, "Crafting": 20, "Resourcefulness": 10}},
+            {"text": "Sit and wait for rescue", "values": {"Endurance": 10, "Focus": 5, "Patience": 10}}
+        ]
+    },
+    {
+        "id": "q4",
+        "question": "How do you approach a new quest or task in your journey?",
+        "options": [
+            {"text": "Dive in immediately without much planning", "values": {"Strategy": 5, "Focus": 10, "Creativity": 15}},
+            {"text": "Create a detailed plan before starting", "values": {"Strategy": 20, "Focus": 20, "Planning": 15}},
+            {"text": "Delegate the task to a companion", "values": {"Leadership": 15, "Teamwork": 15, "Delegation": 15}},
+            {"text": "Procrastinate and delay starting", "values": {"Focus": 0, "Endurance": 0, "TimeManagement": 0}}
+        ]
+    },
+    {
+        "id": "q5",
+        "question": "You find a mysterious puzzle box. What do you do?",
+        "options": [
+            {"text": "Try to solve it immediately", "values": {"Logic": 20, "Focus": 15, "ProblemSolving": 20}},
+            {"text": "Ignore it", "values": {"Memory": 0, "Focus": 0, "Patience": 0}},
+            {"text": "Ask a companion to solve it", "values": {"Teamwork": 10, "Networking": 10, "Delegation": 10}},
+            {"text": "Break it open", "values": {"Strength": 15, "Agility": 10, "Resourcefulness": 10}}
+        ]
+    },
+    {
+        "id": "q6",
+        "question": "When learning a new skill or lore, what is your approach?",
+        "options": [
+            {"text": "Read ancient scrolls and tomes on the subject", "values": {"Knowledge": 20, "Focus": 15, "Learning": 20}},
+            {"text": "Find a mentor or sage to learn from", "values": {"Knowledge": 15, "Networking": 20, "Learning": 15}},
+            {"text": "Learn by practicing and experimenting", "values": {"Knowledge": 10, "Creativity": 20, "Learning": 15}},
+            {"text": "Join a guild or group to learn with others", "values": {"Knowledge": 15, "Teamwork": 20, "Learning": 10}}
+        ]
+    },
+    {
+        "id": "q7",
+        "question": "You are leading a party on a new quest. A conflict arises between two party members. How do you resolve it?",
+        "options": [
+            {"text": "Let them resolve it themselves", "values": {"Leadership": 5, "ConflictResolution": 5, "Judgement": 5}},
+            {"text": "Intervene and mediate a resolution", "values": {"Leadership": 20, "ConflictResolution": 20, "Empathy": 15}},
+            {"text": "Assign them separate tasks", "values": {"Leadership": 10, "ConflictResolution": 10, "Organizing": 15}},
+            {"text": "Escalate to the guild master", "values": {"Leadership": 0, "ConflictResolution": 5, "Reporting": 10}}
+        ]
+    },
+    {
+        "id": "q8",
+        "question": "You are in a bartering scenario. How do you ensure you get the best deal?",
+        "options": [
+            {"text": "Use persuasive techniques", "values": {"Diplomacy": 15, "Persuasion": 20, "Communication": 15}},
+            {"text": "Offer something in return", "values": {"Diplomacy": 20, "Bartering": 20, "Judgement": 10}},
+            {"text": "Stick to your initial offer", "values": {"Diplomacy": 10, "Endurance": 15, "Focus": 10}},
+            {"text": "Seek a compromise", "values": {"Diplomacy": 20, "Compromising": 20, "Understanding": 15}}
+        ]
+    },
+    {
+        "id": "q9",
+        "question": "You are in a survival scenario and need to make tools. What do you do?",
+        "options": [
+            {"text": "Look for natural resources to craft tools", "values": {"Survival": 15, "Crafting": 20, "Resourcefulness": 15}},
+            {"text": "Try to use existing objects as tools", "values": {"Survival": 20, "Scavenging": 20, "Innovation": 15}},
+            {"text": "Wait for rescue without making tools", "values": {"Survival": 0, "Patience": 15, "Endurance": 10}},
+            {"text": "Focus on finding food instead", "values": {"Survival": 15, "Foraging": 20, "Prioritizing": 15}}
+        ]
+    },
+    {
+        "id": "q10",
+        "question": "You need to gather information on a new lore. How do you proceed?",
+        "options": [
+            {"text": "Conduct research in the ancient library", "values": {"InformationGathering": 20, "Research": 20, "Focus": 15}},
+            {"text": "Ask sages and loremasters in the field", "values": {"InformationGathering": 15, "Networking": 20, "Communication": 15}},
+            {"text": "Read ancient scrolls and scholarly tomes", "values": {"InformationGathering": 20, "Knowledge": 20, "Learning": 15}},
+            {"text": "Join forums and discussion groups in the town square", "values": {"InformationGathering": 15, "Networking": 20, "Communication": 15}}
+        ]
+    },
+    {
+        "id": "q11",
+        "question": "You are tasked with organizing a feast. How do you start?",
+        "options": [
+            {"text": "Create a detailed plan and checklist", "values": {"Organizing": 20, "Planning": 20, "Focus": 15}},
+            {"text": "Delegate tasks to the villagers", "values": {"Organizing": 15, "Leadership": 20, "Delegation": 20}},
+            {"text": "Start with the most critical tasks", "values": {"Organizing": 20, "Prioritizing": 20, "Focus": 15}},
+            {"text": "Seek volunteers and support from the townsfolk", "values": {"Organizing": 15, "Networking": 20, "BuildingRelationships": 20}}
+        ]
+    },
+    {
+        "id": "q12",
+        "question": "You are faced with a moral dilemma in your journey. How do you make a decision?",
+        "options": [
+            {"text": "Follow your intuition", "values": {"Judgement": 15, "Intuition": 20, "Focus": 15}},
+            {"text": "Seek advice from trusted companions", "values": {"Judgement": 15, "Networking": 20, "Communication": 15}},
+            {"text": "Weigh the pros and cons", "values": {"Judgement": 20, "RationalThinking": 20, "Analysis": 15}},
+            {"text": "Follow the code of the land", "values": {"Judgement": 20, "Ethics": 20, "Knowledge": 15}}
+        ]
+    },
+    {
+        "id": "q13",
+        "question": "You need to create a new potion to solve a problem. How do you proceed?",
+        "options": [
+            {"text": "Experiment with different ingredients", "values": {"Innovation": 20, "Creativity": 20, "Experimentation": 15}},
+            {"text": "Research existing potions", "values": {"Innovation": 15, "Research": 20, "Knowledge": 15}},
+            {"text": "Consult with alchemists in the field", "values": {"Innovation": 15, "Networking": 20, "Learning": 15}},
+            {"text": "Brainstorm multiple potion ideas", "values": {"Innovation": 20, "Creativity": 20, "IdeaGeneration": 15}}
+        ]
+    },
+    {
+        "id": "q14",
+        "question": "You are in a group discussion and someone presents a viewpoint that is incorrect according to the ancient scrolls. How do you respond?",
+        "options": [
+            {"text": "Politely correct them with supporting evidence", "values": {"Communication": 20, "Knowledge": 20, "Supporting": 15}},
+            {"text": "Ignore the incorrect viewpoint", "values": {"Patience": 10, "Endurance": 10, "Focus": 5}},
+            {"text": "Ask them to clarify their viewpoint", "values": {"Communication": 20, "Understanding": 20, "Empathy": 15}},
+            {"text": "Agree to avoid conflict", "values": {"Compromising": 20, "Peacekeeping": 20, "Supporting": 15}}
+        ]
+    },
+    {
+        "id": "q15",
+        "question": "You are in a survival scenario and you find a source of water. What do you do?",
+        "options": [
+            {"text": "Drink immediately without checking", "values": {"Foraging": 0, "Survival": 0, "RiskTaking": 10}},
+            {"text": "Check for signs of contamination before drinking", "values": {"Foraging": 20, "Survival": 20, "Knowledge": 10}},
+            {"text": "Set up camp nearby and start boiling the water", "values": {"Foraging": 15, "Survival": 15, "FireMaking": 10}},
+            {"text": "Mark the location and continue exploring", "values": {"Foraging": 10, "Survival": 10, "Exploration": 15}}
+        ]
+    },
+    {
+        "id": "q16",
+        "question": "You are working on a quest and encounter an obstacle. How do you overcome it?",
+        "options": [
+            {"text": "Seek alternative solutions", "values": {"ProblemSolving": 20, "Innovation": 20, "Creativity": 15}},
+            {"text": "Consult with party members", "values": {"ProblemSolving": 15, "Teamwork": 20, "Communication": 15}},
+            {"text": "Research and gather more information", "values": {"ProblemSolving": 20, "Research": 20, "Knowledge": 15}},
+            {"text": "Persist and try to solve the problem", "values": {"ProblemSolving": 20, "Endurance": 20, "Focus": 15}}
+        ]
+    }
+]
